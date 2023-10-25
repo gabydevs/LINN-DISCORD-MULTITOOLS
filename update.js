@@ -70,7 +70,7 @@ async function procurarAtt() {
          rl.close()
          resolve()
      }).catch(error => {
-        console.error('Erro ao clonar repositório, tente instalar https://git-scm.com/.\nOu tente atualizar o projeto baixando no https://github.com/apoloR3s/apoloR3s')
+        console.error('Erro ao clonar repositório, tente instalar https://git-scm.com/.\nOu tente atualizar o projeto baixando no https://github.com/apoloR3s/LINN-DISCORD-MULTITOOLS')
      });
 
     } else {

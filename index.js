@@ -28,7 +28,7 @@ client.on('ready', async () => {
       }
       console.log(colors.red(data));
       console.log(colors.red(`${await checkUpdate()}\n\n`))
-      process.title = `BDG Multi-tool | ${await checkUpdate()}`
+      process.title = `LINN Multi-tool | ${await checkUpdate()}`
 
       const options = [{
         name: '[+] Abrir todas as DMs e apagar (amigos)'
